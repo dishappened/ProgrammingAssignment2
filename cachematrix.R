@@ -2,17 +2,21 @@
 ## functions do
 
 ## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
+#makeCacheMatrix <- function(x = matrix()) {
+#}
+#function creates a special object to store matrix
+# and cache its inverse 
+# this object is a list of functions 
+# set assigns a new matrix to the object and 
+# get returns current matrix stored in object 
 ## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
+# function computes inverse of matrix stored in 
+# special object mentioned above 
+# it retrieves the cached already calculated inverse
+# instead of recalculating it 
+#cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
-}
+#}
 makeCacheMatrix <- function(x=matrix()){
   inv <- NULL
   set <- function(y) {
